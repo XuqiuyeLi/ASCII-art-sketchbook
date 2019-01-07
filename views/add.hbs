@@ -1,0 +1,34 @@
+<h2>New Entry:</h2>
+	
+	<form method="POST" action="/add">
+		<span>Title</span>
+		<input class="form" type="text" name="title">
+		<br/><br/>
+
+		<span>Date</span>
+		<input class="form" type="text" name="date">
+
+		<p>Artwork String</p>
+		<textarea class="artString" name="artString"></textarea>
+		<br/><br/>
+
+		<p>Tags <span class="white-text">(separate by , )</span></p>
+		<input class="form" type="text" name="tags">
+		<br/><br/>
+
+		<input class="add" type="submit" value="Add">	
+		<br/><br/>
+	</form>
+
+	<ul>
+	{{#each defaultArtworks}}
+		<li class="artwork">
+			<p>{{date}} <b class="title">{{title}}</b></p>
+			<pre class="white-text">{{artString}}</pre>
+			<span class="tag">TAGS:</span> 
+			{{#each this.tags as |tag|}}
+			<a href="/?tag={{tag}}">{{tag}}</a>
+			{{/each}}
+		</li>
+	{{/each}}
+	</ul>

@@ -1,0 +1,99 @@
+body {
+	padding: 100px;
+	background-color: #708090;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h2 {
+	color:#E6E6FA;
+	letter-spacing: 2px;
+}
+
+h3 {
+	color:#FF69B4;
+}
+
+img {
+	width: 70px;
+	height: 70px;
+}
+
+.big-title {
+	font-size: 40px;
+	font-weight: 700px;
+	display: flex;
+}
+
+.title {
+	color:#FF69B4 !important;	
+}
+
+.white-text {
+	color:#FFFFFF;
+}
+
+
+.footer {
+	margin-left: 40px;
+}
+
+.tag {
+	color:#00FFFF!important;
+}
+.artwork a:hover {
+	color:#00FFFF!important;
+}
+
+.form {
+	border-radius: 10px;
+	box-sizing: border-box;
+    width: 220px;
+    height: 30px;
+    padding: 10px;    
+    border: 2px solid #FF69B4;
+}
+
+.submit {
+	border-radius: 8px;
+	box-sizing: content-box;
+    width: 80px;
+    height: 18px;
+    padding: 5px; 
+    background-color: #323232;
+    color: #00FFFF;
+    letter-spacing: 1px;   
+}
+
+.submit:hover {
+	background-color:#FF69B4;
+	color: #00FFFF;
+}
+
+
+.artString {
+	border-radius: 10px;
+	box-sizing: border-box;
+    width: 260px;
+    height: 160px;
+    margin-top: 5px;
+	padding: 10px; 
+    border: 2px solid #FF69B4;
+}
+
+
+
+.add {
+	border-radius: 8px;
+	box-sizing: content-box;
+    width: 100px;
+    height: 20px;
+    padding: 5px; 
+    margin-left: 80px;
+    background-color: #323232;
+    color: #00FFFF;
+    letter-spacing: 1px;
+}
+
+.add:hover {
+	background-color:#FF69B4;
+}
